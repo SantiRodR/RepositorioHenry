@@ -1,0 +1,2 @@
+Este es el primer texto de prueba para sincronizar 
+los datos de github con los datos de la maquina local
