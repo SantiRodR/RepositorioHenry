@@ -9,7 +9,13 @@
 }
 .titulo {
     color: blueviolet;
+    font-size: 60px ;
 }
 h2{
    background-color: blueviolet;
+}
+.batidos {
+
+    width: 100px;
+    size: 50px;
 }
