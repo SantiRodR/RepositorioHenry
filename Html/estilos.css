@@ -7,4 +7,9 @@
     font-family: Arial, sans-serif;
     color: #333;
 }
-
+.titulo {
+    color: blueviolet;
+}
+h2{
+   background-color: blueviolet;
+}
