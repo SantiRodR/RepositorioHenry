@@ -9,13 +9,34 @@
 }
 .titulo {
     color: blueviolet;
-    font-size: 60px ;
+    font-size: 6em ;
+    margin-top: 2em;
+    margin: auto;
+    width: 30%;
+}
+.titulo2 {
+    color: blueviolet;
+    font-size: 6em ;
+    margin: auto;
+    width: 45%;
+
+}
+.eslogan {
+
+    font-size: 1.3em;
+    width: 10em;
+    margin: auto;
 }
 h2{
    background-color: blueviolet;
 }
 .batidos {
 
-    width: 100px;
-    size: 50px;
+    width: fit-content;
+    
+}
+#ingredientes  {
+
+    font-size: 24px;
+
 }
