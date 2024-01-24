@@ -1,6 +1,6 @@
 .fondo {
     
-    background-color: #00f7ff;
+    background-color: #60faff;
 }
 
 .miTexto {
@@ -26,16 +26,30 @@
     font-size: 1.3em;
     width: 10em;
     margin: auto;
+    border: 2px solid black;
+    padding: 0px 1em 0px 2em;
+    border-radius: 40%;
 }
 h2{
    background-color: blueviolet;
 }
-.batidos {
-
-    width: fit-content;
+.b1 {
+    max-width: 40%;
+    max-height: 40%;
+    height: 25vw;
+    width: 25vw;
+    margin: auto;
+    border: 2px solid black;
+    padding: 0px 2em 0px 2em;
+    border-radius: 40%;
+    transition: 1s;
+    }
+.b1:hover {
+    background-color: aquamarine;
     
 }
-#ingredientes  {
+
+#bases  {
 
     font-size: 24px;
 
