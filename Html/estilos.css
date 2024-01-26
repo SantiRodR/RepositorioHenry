@@ -23,34 +23,66 @@
 }
 .eslogan {
 
-    font-size: 1.3em;
-    width: 10em;
+    font-size: 1.2em;
+    width: 13em;
     margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border: 2px solid black;
-    padding: 0px 1em 0px 2em;
-    border-radius: 40%;
+    padding: 0px 0em 0px 2em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    
 }
 h2{
    background-color: blueviolet;
 }
+
 .b1 {
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 95%;
+    max-height: 90%;
+    height: 40vw;
+    width: 60vw;
+    
+    }
+.info:hover {
+    background-color: aquamarine;
+    
+}
+.info {
+    max-width: 50%;
+    max-height: 50%;
     height: 25vw;
     width: 25vw;
     margin: auto;
     border: 2px solid black;
-    padding: 0px 2em 0px 2em;
-    border-radius: 40%;
+    border-radius: 15px;
     transition: 1s;
-    }
-.b1:hover {
-    background-color: aquamarine;
-    
-}
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    align-items: center;
+    padding-bottom: 2px;
 
+    }
 #bases  {
 
     font-size: 24px;
+
+}
+#cards-container{
+    
+    width: 92vw;
+    margin: auto;
+    margin-top: 2.5em;
+    margin-bottom: 2em;
+    border: 5px solid rgb(87, 83, 83);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
 }

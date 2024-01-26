@@ -1,0 +1,43 @@
+/* Reset CSS */
+
+/* Box sizing border-box por defecto */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Eliminar márgenes y rellenos predeterminados */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Asegurar consistencia de estilos de lista en diferentes navegadores */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Asegurar consistencia de estilos de texto en diferentes navegadores */
+blockquote,
+q {
+    quotes: none;
+}
+
+/* Asegurar consistencia de estilos de tabla en diferentes navegadores */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
