@@ -31,7 +31,8 @@ console.log((3 + 5) * 2 - 8);
 console.log("Hola " + "Camilo");
 
 var nombre = "Camilo";
-var saludo = "Hola " + nombre;
+var saludo = "Hola ";
+var saludocompleto = saludo + nombre;
 
-console.log(saludo);
+console.log(saludocompleto);
 
